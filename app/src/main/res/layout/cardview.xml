@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_marginTop="32dp"
+        android:text="NATURE"
+
+        android:textColor="#000000"
+        android:textSize="32dp" />
+
+    <ImageView
+        android:layout_marginTop="72dp"
+        android:layout_width="wrap_content"
+        android:layout_height="283dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/waterfall" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="25dp"
+        android:textColor="#000000"
+        android:text="Decreption...."/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:background="@color/colorPink"
+        android:text="Apply"
+        android:layout_marginTop="159dp"
+        android:textAllCaps="false"
+
+        />
+</LinearLayout>
