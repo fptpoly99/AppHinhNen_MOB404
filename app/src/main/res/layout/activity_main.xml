@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal"
     android:gravity="center"
-    tools:context=".MainActivity">
+    tools:context=".UI.MainActivity">
 
     <ImageView
         android:layout_width="wrap_content"
