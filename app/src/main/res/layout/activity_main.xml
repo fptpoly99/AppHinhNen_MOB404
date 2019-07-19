@@ -8,9 +8,10 @@
     android:gravity="center"
     tools:context=".UI.MainActivity">
 
-    <ImageView
+    <TextView
+        android:textSize="50sp"
+        android:text="LÀM BÀI ĐI ĐCM"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/splash" />
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
