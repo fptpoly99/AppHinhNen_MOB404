@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UI.SplashActivity">
+        <activity android:name=".Activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -17,15 +17,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CategoryActivity.Categories" />
-        <activity android:name=".CategoryActivity.MusicActivity" />
-        <activity android:name=".CategoryActivity.GirlActivity" />
-        <activity android:name=".CategoryActivity.TravelActivity" />
-        <activity android:name=".CategoryActivity.HouseActivity" />
-        <activity android:name=".CategoryActivity.NatureActivity" />
-        <activity android:name=".CategoryActivity.AnimalActivity" />
-        <activity android:name=".UI.MainActivity">
+        <activity android:name=".Activity.Categories" />
+        <activity android:name=".Activity.MusicActivity" />
+        <activity android:name=".Activity.GirlActivity" />
+        <activity android:name=".Activity.TravelActivity" />
+        <activity android:name=".Activity.HouseActivity" />
+        <activity android:name=".Activity.NatureActivity" />
+        <activity android:name=".Activity.AnimalActivity" />
+        <activity android:name=".Activity.MainActivity">
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

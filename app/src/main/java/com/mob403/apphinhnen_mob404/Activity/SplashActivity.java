@@ -1,4 +1,4 @@
-package com.mob403.apphinhnen_mob404.UI;
+package com.mob403.apphinhnen_mob404.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
